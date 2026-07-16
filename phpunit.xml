@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
+         bootstrap="src/vendor/autoload.php"
+         cacheResultFile=".phpunit.cache/test-results"
+         executionOrder="depends,defects"
+         forceCoversAnnotation="false"
+         beStrictAboutCoversAnnotation="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         convertDeprecationsToExceptions="true"
+         failOnRisky="true"
+         failOnWarning="true"
+         verbose="true"
+         stderr="true">
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">src/tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Integration">
+            <directory suffix="Test.php">src/tests/Integration</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage cacheDirectory=".phpunit.cache/code-coverage">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+        <exclude>
+            <file>src/include/common.php</file>
+            <directory>src/vendor</directory>
+            <directory>src/node_modules</directory>
+            <directory>src/tests</directory>
+            <directory>src/inlcude/language</directory>
+            <directory suffix=".php">src/addons/</directory>
+        </exclude>
+        <report>
+            <cobertura outputFile="cobertura.xml"/>
+        </report>
+    </coverage>
+
+    <logging>
+        <junit outputFile="report.xml"/>
+    </logging>
+</phpunit>

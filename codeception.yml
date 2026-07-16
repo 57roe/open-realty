@@ -1,0 +1,26 @@
+params:
+    - env # load params from environment vars
+paths:
+    tests: src/tests
+    output: src/tests/_output
+    data: src/tests/_data
+    support: src/tests/_support
+    envs: src/tests/_envs
+actor_suffix: Tester
+settings:
+    backup_globals: false
+    memory_limit: 4096M
+extensions:
+    enabled:
+        - Codeception\Extension\RunFailed
+coverage:
+    enabled: true
+    include:
+        - src/index.php
+        - src/ajax.php
+        - src/admin/index.php
+        - src/admin/ajax.php
+        - src/include/class/*
+        - src/include/*.php
+        - src/install/*
+        - src/api/*

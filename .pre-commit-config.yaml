@@ -1,0 +1,32 @@
+
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+- repo: local
+  hooks:
+    - id: php-cs-fixer
+      name: php-cs-fixer
+      entry: make
+      args: ["php-cs-fixer-check"]
+      language: system
+      pass_filenames: false
+      types: [php]
+    # - id: test
+    #   name: Unit Tests
+    #   entry: make
+    #   args: ["test"]
+    #   language: system
+    #   always_run: [php]
+    # - id: test-integration
+    #   name: Integration Tests
+    #   entry: make
+    #   args: ["test-integration"]
+    #   language: system
+    #   types: [php]
+    # - id: test-acceptance
+    #   name: Acceptance Tests
+    #   entry: make
+    #   args: ["test-acceptance"]
+    #   language: system
+    #   types: [php]
+      

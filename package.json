@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@audithsoftworks/jquery.uniform": "^4.3.0",
+    "@fontsource/roboto": "^4.5.2",
+    "@fontsource/roboto-slab": "^4.5.2",
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "ckeditor-quicktable-plugin": "ufdada/quicktable",
+    "ckeditor-youtube-plugin": "^2.1.19",
+    "ckeditor4": "^4.17.1",
+    "datatables.net": "^1.11.4",
+    "datatables.net-bs5": "^1.11.4",
+    "devbridge-autocomplete": "^1.4.11",
+    "fullcalendar": "^3.0.0",
+    "jQuery-Impromptu": "trentrichardson/jQuery-Impromptu#v6.2.3",
+    "jquery": "^3.6.0",
+    "jquery-colorbox": "^1.6.4",
+    "jquery-equalheights": "^1.0.6",
+    "jquery-filedrop": "weixiyen/jquery-filedrop#0.1.0",
+    "jquery-migrate": "^3.3.2",
+    "jquery-tools-migrate": "^1.0.1",
+    "jquery-ui": "therealryanbonham/jquery-ui-dist",
+    "jquery-validation": "^1.19.3",
+    "jquery.splitter": "^0.28.5",
+    "jqueryfiletree": "^2.1.4",
+    "jstree": "^3.3.12",
+    "lightslider": "^1.1.6",
+    "material-dashboard": "creativetimofficial/material-dashboard#v3.0.4",
+    "moment": "^2.6.0",
+    "pannellum": "^2.5.6",
+    "sortablejs": "^1.14.0",
+    "superfish": "^1.7.10",
+    "tablesorter": "^2.31.3"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "version": "0.0.0"
+}

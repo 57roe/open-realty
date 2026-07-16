@@ -1,0 +1,50 @@
+[phpcs-security-audit]
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.Misc.IncludeMismatch.ErrMiscIncludeMismatchNoExt"
+    
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.BadFunctions.FilesystemFunctions.WarnFilesystem"
+
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.BadFunctions.PregReplace.PregReplaceDyn"
+    
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.BadFunctions.CallbackFunctions.WarnCallbackFunctions"
+    
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.BadFunctions.FunctionHandlingFunctions.WarnFunctionHandling"
+    
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.BadFunctions.PregReplace.PregReplaceWeird"
+
+  [[phpcs-security-audit.ruleset]]
+    disable = true
+
+    [phpcs-security-audit.ruleset.identifier]
+    type = "phpcs_security_audit_source"
+    value = "PHPCS_SecurityAudit.BadFunctions.SystemExecFunctions.WarnSystemExec"
+    

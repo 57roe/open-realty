@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<psalm>
+    <projectFiles>
+        <directory name="src" />
+        <ignoreFiles>
+            <directory name="src/include/class" />
+            <directory name="src/include/language" />
+            <directory name="src/install/language" />
+            <directory name="src/tests" />
+        </ignoreFiles>
+    </projectFiles>
+</psalm>

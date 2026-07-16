@@ -1,0 +1,40 @@
+{
+  "config": {
+    "vendor-dir": "src/vendor",
+    "platform": {
+      "php": "7.4.3"
+    },
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "phpunit/phpunit": "^9",
+    "phpstan/phpstan": "^1",
+    "vimeo/psalm": "^4.3",
+    "friendsofphp/php-cs-fixer": "^3.00",
+    "phpmd/phpmd": "@stable",
+    "codeception/codeception": "^4.2",
+    "codeception/module-webdriver": "^2.0",
+    "codeception/module-asserts": "^2.0",
+    "codeception/module-phpbrowser": "^2.0",
+    "codeception/mockery-module": "*",
+    "phpunit/php-code-coverage": "^9.2",
+    "codeception/module-filesystem": "^2.0",
+    "codeception/module-db": "^2.0"
+  },
+  "require": {
+    "adodb/adodb-php": "^5.20, !=5.22.3", 
+    "browscap/browscap-php": "^7.0",
+    "phpmailer/phpmailer": "^6.2",
+    "abraham/twitteroauth": "^4.0",
+    "gregwar/captcha": "1.*",
+    "phpxmlrpc/phpxmlrpc": "~4.0",
+    "composer/semver": "^3.2",
+    "sabre/vobject": "~4.1",
+    "endroid/qr-code": "^4.4",
+    "google/apiclient": "^2.0"
+  }
+
+}

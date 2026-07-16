@@ -1,0 +1,139 @@
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+##### MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+##### SublimeText
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+##### VisualStudioCode
+.vscode
+.devcontainer
+
+##### Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+##### Composer
+composer.phar
+src/vendor/
+
+##### Node Modules
+src/node_modules
+
+#PHP CS
+.php_cs.cache
+checkstyle.xml
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+.project
+
+#Ignore JUnit REport
+report.xml
+#Ignore phpunit cache
+.phpunit.cache
+cobertura.xml
+c3tmp
+#codeception
+src/tests/_output/*
+!src/tests/_output/.gitkeep
+src/tests/_support/_generated/*
+
+#Ignore Open-Realty developer file
+src/devignoreinstall
+
+#Ignore Open-Realty Generated Files
+src/sitemap.xml
+src/sitemap1.xml
+src/include/common.php
+
+#Ignore Open-Realty Folders that are commonly changed durring dev. 
+# Use force push if needed.
+src/addons/*/
+src/images/listing_photos/*
+!src/images/listing_photos/index.html
+!src/images/listing_photos/index.html
+!src/images/listing_photos/1_china_room.jpg
+!src/images/listing_photos/1_dining_room.jpg
+!src/images/listing_photos/1_green_room.jpg
+!src/images/listing_photos/1_vermeil_room.jpg
+!src/images/listing_photos/1_white-house.jpg
+!src/images/listing_photos/2_IMG_1369.JPG
+!src/images/listing_photos/3_IMG_1373.JPG
+!src/images/listing_photos/4_IMAG0146.jpg
+!src/images/listing_photos/.htaccess
+src/images/blog_uploads/*
+!src/images/blog_uploads/index.html
+src/images/page_upload/*
+!src/images/page_upload/index.html
+src/images/user_photos/*
+!src/images/user_photos/index.html
+src/images/vtour_photos/*
+!src/images/vtour_photos/index.html
+src/template/*
+!src/template/cms_integration
+!src/template/default
+!src/template/flex
+!src/template/html5
+!src/template/lazuli
+!src/template/mobile
+#Admin Templates
+src/admin/template/*
+!src/admin/template/default
+!src/admin/template/cms_admin_integration
+!src/admin/template/OR_small
+!src/admin/template/material
+#Ignore material css, this is generated and should not be checked in.
+src/admin/template/material/assets/css/*
+#ignore browsercap_cache
+src/files/browsercap_cache/*
+!src/files/browsercap_cache/index.html
+!src/files/browsercap_cache/.htaccess
+src/files/download_cache/*.cache
+src/files/listings/*
+!src/files/listings/index.html
+!src/files/listings/.htaccess
+src/files/users/*
+!src/files/users/index.html
+!src/files/users/.htaccess
+#Ignore distribution folder
+/dist/
+#Ignore Script to Update Addons For Development
+update_dev_addons.sh
+.php-cs-fixer.cache
+yarn-error.log
+.yarn-cache
+#Ignore Logs folder used by docker compose for xdebug logs
+logs/
+#Ignore common.dist.php so we do delete it after install
+src/include/common.dist.php
+#Ignore installer.sig
+installer.sig
+#Ignore .htaccess.upgrade
+src/.htaccess.upgrade
