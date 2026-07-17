@@ -20,19 +20,19 @@ RUN apt-get update && apt-get install -y git \
     && ./composer_install.sh \
     && php composer.phar install --no-dev
 
-# Fix write permissions the installer requires
+# Fix write permissions the installer requires (paths are under src/)
 RUN chmod -R 775 \
-    include \
-    images/listing_photos \
-    images/user_photos \
-    images/vtour_photos \
-    images/page_upload \
-    images/blog_uploads \
-    files/listings \
-    files/users \
-    addons \
-    files/browsercap_cache \
-    files/download_cache \
-    && chown -R www-data:www-data include images files addons
+    src/include \
+    src/images/listing_photos \
+    src/images/user_photos \
+    src/images/vtour_photos \
+    src/images/page_upload \
+    src/images/blog_uploads \
+    src/files/listings \
+    src/files/users \
+    src/addons \
+    src/files/browsercap_cache \
+    src/files/download_cache \
+    && chown -R www-data:www-data src/include src/images src/files src/addons
 
 EXPOSE 80
